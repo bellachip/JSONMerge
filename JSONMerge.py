@@ -4,7 +4,7 @@ import re
 
 # the file to be converted to
 # json format
-a_filename = 'data\\6971761113_20181015144051.txt'
+a_filename = 'data/6971761113_20181015144051.txt'
 b_filename = 'btest.txt'
 
 # dictionary where the lines from

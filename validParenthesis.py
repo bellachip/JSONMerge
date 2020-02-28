@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution():
     def isValid(self, s):
         """
         :type s: str
@@ -33,3 +33,7 @@ class Solution(object):
         # In the end, if the stack is empty, then we have a valid expression.
         # The stack won't be empty for cases like ((()
         return not stack
+
+var = "{(((}"
+s = Solution()
+print(s.isValid(var))
